@@ -1,0 +1,80 @@
+[aria-current], [aria-current]:hover 
+	{
+	text-decoration:underline;
+	}
+
+.errorMessage, .errorMessage_backend
+	{
+	color:red;
+	}
+
+.hidden 
+	{
+	position:absolute;
+	left:-10000px;
+	top:auto;
+	width:1px;
+	height:1px;
+	overflow:hidden;
+	}
+
+.btnDisabled, .btnDisabled:hover
+	{
+	opacity: 0.65; 
+	cursor: default;
+	}
+
+.carousel-control-prev-icon
+	{
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+	}
+
+.carousel-control-next-icon
+	{
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+	}
+
+@media (min-width: 768px) 
+{
+.center
+	{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	}
+}
+
+@media (max-width: 768px) 
+{
+.center
+	{
+	width:100%;
+	height:100%;
+	object-fit: cover;
+	overflow: hidden;
+	}
+}
+
+.gitHubLogo
+	{
+	background-image: url("../img/GitHub-Mark-32px.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	margin-right: 6px;
+	}
+
+
+.hiddenMathContainer
+	{
+	position: absolute;
+	top: 0,
+	left:0;
+	width:0,
+	height:0,
+	overflow: hidden;
+	visibility: hidden;
+	}

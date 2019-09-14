@@ -1,0 +1,20 @@
+body
+	{
+	scrollbar-width: none; /* For Firefox */
+	-ms-overflow-style: none; /* For Internet Explorer and Edge */
+	}
+
+body::-webkit-scrollbar
+	{
+	width: 0px; /* For Chrome, Safari, and Opera */
+	}
+
+textarea
+	{
+	resize: none;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	width: 100%;
+	height: 99vh;
+	}
